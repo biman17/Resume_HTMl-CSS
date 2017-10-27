@@ -1,0 +1,152 @@
+html{
+  background-image: url(background1.jpg);no-repeat center center fixed; 
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  background-attachment: fixed;
+}
+body{
+  color: #F1F0F0;
+  font-family: 'Raleway', sans-serif;
+  font-size: 100%;
+  line-height: 1.5;
+  text-align: left;
+
+}
+
+a{
+  text-decoration: none
+}
+
+.body{
+  margin: 0 auto;
+  width: 80%;
+  clear:both;
+}
+
+.main_header h1{
+  position: absolute;
+  top: 6%;
+  left: 13%;
+  font-size: 300%;
+
+}
+.main_header h2{
+  position: absolute;
+  font-style: italic;
+  color: #072B0E;
+  top: 14.9%;
+  left: 13%;
+  }
+
+.links{
+  position: absolute;
+  top:10%;
+  left: 74%;
+  font-size: 300%;
+ }
+
+
+.main_header img{
+  position: relative;
+  width: 100%;
+  height: auto;
+  border-radius: 30px;
+  margin-top: 4%;
+}
+
+.main_header nav{
+  background-color:#9A0505 ;
+  height: 50px;
+  border-radius: 5px;
+
+}
+
+.main_header nav ul{
+  list-style: none;
+  margin: 0 auto;
+
+}
+
+
+.main_header nav ul li{
+  float: left;
+  display: inline;
+  color: #F1F0F0;
+
+}
+
+a{color: #F1F0F0; }
+a:visited{  color: #F1F0F0;}
+
+
+.main_header nav a:link, .mainHeader nav a:visited{
+  display: inline-block;
+  padding: 12.5px 25px;
+  height: 20px;
+  border-radius: 5px;
+}
+
+
+.main_header nav a:hover{
+  text-shadow: none;
+  height: 25px;
+  background-color: #000000;
+  color: rgb(174, 232, 44);
+  
+}
+
+#about{
+  width: 96%;
+  background:rgba(250, 159, 4, 0.8);
+  padding: 1% 1%;
+  margin:1%;
+  border-radius: 5px;
+}
+
+
+#edu{
+  width: 96%;
+  background:rgba(243, 11, 27, 0.5);
+  padding: 1% 1%;
+  margin:1%;
+  border-radius: 5px;
+
+}
+
+#proj{
+  width: 96%;
+  background:rgba(174, 237, 0, 0.5);
+  padding: 1% 1%;
+  margin:1%;
+  border-radius: 5px;
+}
+
+#skills{
+  width: 96%;
+  background:rgba(138, 3, 251, 0.5);
+  padding: 1% 1%;
+  margin:1%;
+  border-radius: 5px;
+}
+
+#ref{
+  width: 96%;
+  background:rgba(0, 152, 255, 0.5);
+  padding: 1% 1%;
+  margin:1%;
+  border-radius: 5px;
+}
+
+#ref li{
+  list-style-type:none;
+}
+
+
+footer{
+  background-color:#9A0505 ;
+  height:28.5px;
+  border-radius: 5px;
+  padding: 12.5px 25px;
+}
